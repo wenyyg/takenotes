@@ -60,7 +60,7 @@ https://npm.taobao.org/mirrors/git-for-windows/
 
 gitlab远程仓库上  也创建了一个dev分支
 
-<img src="img/git/微信截图_20201231151349.png" style="zoom:80%;" />
+![](img/git/微信截图_20201231151349.png)
 
 
 
@@ -76,8 +76,8 @@ gitlab远程仓库上  也创建了一个dev分支
 
 解决方法：在push之前必须要写commit
 
-<img src="img/git/微信截图_20201231152857.png" style="zoom:80%;" />
+![](img/git/微信截图_20201231152857.png)
 
 关联成功
 
-<img src="img/git/微信截图_20201231153023.png" style="zoom:80%;" />
+![](img/git/微信截图_20201231153023.png)
