@@ -10,7 +10,7 @@ https://npm.taobao.org/mirrors/git-for-windows/
 
 右击打开Git Bash
 
-> $git init
+> git init
 
 配置用户名、邮箱
 
@@ -81,3 +81,33 @@ gitlab远程仓库上  也创建了一个dev分支
 关联成功
 
 ![](img/git/微信截图_20201231153023.png)
+
+
+
+##### 拉取远程分支到本地分支
+
+> git pull origin dev
+
+当远程分支的文件有修改时， 拉取远程分支到本地分支，文件会出现冲突
+
+![](img/git/微信截图_20201231154622.png)
+
+
+
+##### 解决冲突
+
+> git stash                //先将本地修改存储起来
+
+> git stash list         //用git stash list查看保存的信息
+
+暂存了本地修改之后，就可以pull了
+
+> git pull
+
+还原暂存内容
+
+> git stash pop
+
+Git 自动合并代码--成功
+
+![](img/git/微信截图_20201231155902.png)
