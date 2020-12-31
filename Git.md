@@ -32,7 +32,7 @@ https://npm.taobao.org/mirrors/git-for-windows/
 
 > git branch
 
-<img src="img/git/微信截图_20201231145145.png" alt="微信截图_20201231145145"  />
+![](img/git/微信截图_20201231145145.png)
 
 ##### 创建本地分支
 
