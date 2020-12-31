@@ -67,3 +67,17 @@ gitlab远程仓库上  也创建了一个dev分支
 ##### 将本地分支关联到远程分支
 
 > git push --set-upstream origin dev
+
+**ps**
+
+![](img/git/微信截图_20201231152058.png)
+
+创建远程分支dev，且内容都和当前分支一模一样，创建了新分支，依然push了origin master的版本；导致在关联远程分支时，提示everything up-to-date（所有最新）；
+
+解决方法：在push之前必须要写commit
+
+<img src="img/git/微信截图_20201231152857.png" style="zoom:80%;" />
+
+关联成功
+
+<img src="img/git/微信截图_20201231153023.png" style="zoom:80%;" />
