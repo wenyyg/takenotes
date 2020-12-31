@@ -1,12 +1,12 @@
 Git1
 
-### 安装：
+## 安装：
 
 https://npm.taobao.org/mirrors/git-for-windows/
 
 
 
-### 配置
+## 配置
 
 右击打开Git Bash
 
@@ -22,5 +22,48 @@ https://npm.taobao.org/mirrors/git-for-windows/
 
 > ssh-keygen -t rsa
 
-​	然后连敲三次回车键，结束后去系统盘目录下（一般在C:\Users\你的用户名.ssh）(Mac:/Users/用户/.ssh)查看是否有ssh文件夹生成，此文件夹中有两个文件
 
+
+## git操作
+
+#### 创建本地分支并关联远程分支
+
+##### 查看本地已有分支
+
+> git branch
+
+<img src="img/git/微信截图_20201231145145.png" alt="微信截图_20201231145145"  />
+
+##### 创建本地分支
+
+> git checkout -b 新分支名
+
+执行该指令后，会在本地创建一个新分支，该分支是当前分支上检出的，所以所有文件内容都和当前分支一模一样，这是正常的。
+
+创建成功后，将自动切换至新分支上。
+
+![](img/git/微信截图_20201231150328.png)
+
+##### 新建一个远程分支
+
+> git push origin dev:dev        //创建一个远程分支 名字叫 dev
+
+新建一个远程分支（同名字的远程分支）
+
+![](img/git/微信截图_20201231150941.png)
+
+> git branch -a                      
+
+查看所有分支 ， 可以看到本地分支有：dev 、master；远程分支有dev、master
+
+![](img/git/微信截图_20201231150955.png)
+
+gitlab远程仓库上  也创建了一个dev分支
+
+<img src="img/git/微信截图_20201231151349.png" style="zoom:80%;" />
+
+
+
+##### 将本地分支关联到远程分支
+
+> git push --set-upstream origin dev
