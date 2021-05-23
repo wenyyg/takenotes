@@ -54,7 +54,7 @@ cat id_rsa.pub
 
 如下图
 
-![20210523152506](/Users/wenyy/Desktop/work/wdcloud/dataProject/Typora/git/img/GitHub链接/20210523152506.jpg)
+![20210523152506](img/GitHub链接/20210523152506.jpg)
 
 
 
